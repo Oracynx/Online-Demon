@@ -7,6 +7,9 @@
 #define PORT 56324
 
 // 游戏数值
+#define MAX_MESSAGE_HISTORY 5
+#define MIN_BULLET 4
+#define MAX_BULLET 8
 #define HEALTH 6
 #define FLASH_HEALTH 2
 #define MAX_PROP_COUNT 8
@@ -26,6 +29,11 @@
 #define ADRENALINE 7009
 
 #define PROP_KIND 9
+
+// 游戏常量
+#define ROLE_PUBLIC 8001
+#define ROLE_SERVER 8002
+#define ROLE_CLIENT 8003
 
 // 界面文本
 
