@@ -2,7 +2,7 @@
 #ifndef GAME_DEFINITION
 
 #define GAME_DEFINITION
-//
+
 // 网络通信
 #define PORT 56324
 
@@ -26,5 +26,11 @@
 #define ADRENALINE 7009
 
 #define PROP_KIND 9
+
+// 界面文本
+
+#define VERSION "v0.1.0"
+#define TITLE "========== Online Demon v0.1.0 =========="
+#define SPLIT_LINE "========================================="
 
 #endif
