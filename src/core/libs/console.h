@@ -1,5 +1,10 @@
 #include <iostream>
 #include <windows.h>
+
+#ifndef CONSOLE_LIBS
+
+#define CONSOLE_LIBS
+
 namespace Console
 {
 // 前景色常量
@@ -65,3 +70,5 @@ inline void ClearScreen()
     system("cls");
 }
 } // namespace Console
+
+#endif

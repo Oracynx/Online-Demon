@@ -2,6 +2,11 @@
 #include <vector>
 #include <windows.h>
 #include <winsock2.h>
+
+#ifndef NETWORK_LIBS
+
+#define NETWORK_LIBS
+
 class Network
 {
   private:
@@ -188,3 +193,5 @@ class Network
         return m_isServer;
     }
 };
+
+#endif

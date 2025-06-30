@@ -1,3 +1,8 @@
+
+#ifndef GAME_DEFINITION
+
+#define GAME_DEFINITION
+//
 // 网络通信
 #define PORT 56324
 
@@ -17,3 +22,5 @@
 #define PHONE 7007
 #define MEDICINE 7008
 #define ADRENALINE 7009
+
+#endif
